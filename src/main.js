@@ -4,8 +4,7 @@
   var animals2 = ['lion', 'aardvark', 'gorilla'];
 
   function combineAndSort(arr1, arr2) {
-    var combinedArray = arr1.concat(arr2);
-    return combinedArray.sort();
+    return arr1.concat(arr2).sort();
   }
 
   var allAnimals = combineAndSort(animals1, animals2);
